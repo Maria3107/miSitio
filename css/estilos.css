@@ -1,0 +1,117 @@
+body{
+  font:arial,helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#7FB3D5;
+
+}
+
+.contenedor{
+  width: 99%;
+  margin: 0;
+  overflow:hidden;
+
+}
+ul{
+  margin:0;
+  padding:0;
+}
+header{
+  background-color:#7FB3D5;
+  color:#4b565e;
+  padding-top:3px;
+  min-height:3px;
+  border-bottom: 3px solid #8E44AD;
+}
+header a{
+  color:#fff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 5px 0 5px;
+}
+header #Nombre{
+  float:left;
+}
+header #nombre h1{
+  margin: 0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .actual a{
+  color:black;
+  font-weight:bold;
+}
+.contenedor {
+  max-width: 1280px !important;
+  width: 100% !important;
+  margin: auto;
+}
+
+.row {
+  margin-right: 0px !important;
+}
+h3 {
+  font-size: 25px !important;
+  margin: 2vh !important;
+  color:#4b565e;
+  text-align: center;
+
+}
+div.row {
+  margin-right: 0px !important;
+  display: flex;
+}
+
+header a:hover{
+  color:#C1E7E3;
+  font-weight:bold;
+}
+#cabecera{
+  min-height: 300px;
+  background:url('../img/CABE.jpg') no-repeat right;
+  text-align: center;
+  background-color: #a6a6a6;
+  border-bottom: 3px solid #8E44AD;
+}
+h1 {
+  font-size: 25px !important;
+  margin: 2vh !important;
+  
+  color:#4b565e;
+  text-align: center;
+  
+}
+
+#cajas{
+  margin-top: 20px;
+}
+#cajas .caja{
+  float:left;
+  text-align:center;
+  width: 30%;
+  padding:10px;
+  
+
+}
+#cajas .caja img{
+  width: 90px;
+
+}
+footer {
+  background: #8E44AD;
+  padding: 40px 0;
+  text-align: center;
+  margin-top: 5vh;
+}
+
+
+
+
